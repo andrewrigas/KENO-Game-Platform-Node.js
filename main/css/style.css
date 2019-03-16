@@ -1,0 +1,157 @@
+.selectNumTable { 
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    background-color: #bbb;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bbb; 
+    display: inline-block;
+}
+
+.selectTitle {
+    text-align: center;
+    color: rgb(54, 48, 48);
+}
+
+.selectNumTable:hover { 
+    box-shadow:  3px 3px;
+}
+
+.selectNumTable.active {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0); 
+    background-color: rgb(172, 172, 167);
+}
+
+.kenonum {
+
+    display: inline-block;
+}
+
+.selectNum {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgba(199, 196, 196, 0.692);
+    border-width: 2px;
+    border-style: solid;
+    border-color:#4CAF50; 
+    display: inline-block;
+}
+
+.selectNum th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.help {
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    display: inline-block;
+}
+
+.helpspan .helpmsg {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.helpspan:hover .helpmsg {
+    visibility: visible;
+}
+
+.helpmsg {
+    font-size: 12px;
+}
+
+
+
+.gameTypes {
+    font-size: 18px;
+    color: rgb(46, 33, 33);
+}
+
+.payTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payTable th, .payTable tr {
+    table-layout: fixed;
+    width: 8%;
+    text-align: center;
+}
+
+.payTable th {
+    color: white;
+    background-color: #4CAF50;
+}
+.payTable tr:hover {
+    background-color: #bbb;
+}
+
+.betTable {
+    visibility: hidden;
+}
+
+.betTable.active {
+    visibility: visible;
+}
+
+#betMsg {
+    visibility: hidden;
+}
+
+#betMsg.active{
+    visibility: visible;
+}
+
+#bet {
+    visibility: hidden;
+}
+
+#bet.active {
+    visibility: visible;
+}
+
+#betAgain {
+    visibility: hidden;
+}
+
+#betAgain.active {
+    visibility: visible;
+}
+
+.kenoGame {
+    text-align: center;
+    table-layout:fixed;
+    width:500px;
+}
+
+.gameNumTable{
+    text-align: center;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bbb; 
+}

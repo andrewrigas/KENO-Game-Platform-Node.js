@@ -1,0 +1,83 @@
+<div id="probs">
+
+        <h1 style="color:black; text-align: center;">Probabilistic Table</h1>
+    
+    <table class="w3-table">
+        <tr>
+            <th>
+                <table class="selectNum w3-card-4 w3-striped w3-border">
+                    <tr>
+                        <th>
+                            <div class="select" class="selectTitle">Select Numbers
+                                <span class="helpspan"><input type="image" src="/images/help.png" class="help" />
+                                    <div class="helpmsg">Select from 1 up to 12 and then hit the Submit button!
+                                        By clicking to a selected number you diselect it.
+                                    </div>
+                                </span>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="selectTable"></table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="select">Selected Numbers
+                                <span class="helpspan"><input type="image" src="/images/help.png" class="help" />
+                                    <div class="helpmsg">A list of all the numbers you had selected</div>
+                                </span>
+                                : <div class="selectedNumbers"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="select">Game Type
+                                <span class="helpspan"><input type="image" src="/images/help.png" class="help" />
+                                    <span class="helpmsg">How many numbers you have selected</span>
+                                </span>
+                                : <div class="gameType"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <button id="request" class="w3-btn w3-round w3-green">Request</button>
+                        </td>
+                    </tr>
+                </table>
+            </th>
+            <th>
+                <table class="w3-card-4">
+                    <tr>
+                        <th class="w3-teal" style="text-align: center;">
+                            <h1>Response</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="uselectedNum">Waiting for Request...</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="totalGames"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="relatedGames"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="posi"></div>
+                        </td>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,142 @@
+<div id="multiplayer" class="w3-responsive">
+    <table id="multiplayer-tables" class="w3-table">
+        <tr>
+            <th>
+                <table class="betTable selectNum w3-card-4 w3-striped w3-border">
+                    <tr>
+                        <th>
+                            <div class="select selectTitle">Bet
+                                <span class="helpspan"><input type="image" src="/images/help.png" class="help" />
+                                    <div class="helpmsg">Your Bet Receipt.
+                                    </div>
+                                </span>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="select">Selected Numbers
+                                <span class="helpspan"><input type="image" src="/images/help.png" class="help" />
+                                    <div class="helpmsg">A list of all the numbers you selected</div>
+                                </span>
+                                : <div class="selectedNumbers"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="select">Game Type
+                                <span class="helpspan"><input type="image" src="/images/help.png" class="help" />
+                                    <span class="helpmsg">How many numbers you selected</span>
+                                </span>
+                                : <div class="gameType"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="select"> Bet value
+                                <span class="helpspan"><span class="helpspan"><input type="image" src="/images/help.png"
+                                            class="help" />
+                                        <span class="helpmsg">How much money you bet</span>
+                                    </span>
+                                    :
+                            </div>
+                            <div id="betValue"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="betAgain" class="w3-btn w3-round w3-green">Bet Again</button>
+                        </td>
+                    </tr>
+                </table>
+            </th>
+            <th>
+                <table id="selectNumbersTable" class="selectNum w3-card-4 w3-striped w3-border">
+                    <tr>
+                        <th>
+                            <div class="select selectTitle">Select Numbers
+                                <span class="helpspan"><input type="image" src="/images/help.png" class="help" />
+                                    <div class="helpmsg">Select from 1 up to 12 and then hit the Bet button!
+                                        By clicking to a selected number you diselect it.
+                                    </div>
+                                </span>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="selectTable w3-table"></table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="select">Selected Numbers
+                                <span class="helpspan"><input type="image" src="/images/help.png" class="help" />
+                                    <div class="helpmsg">A list of all the numbers you selected</div>
+                                </span>
+                                : <div class="selectedNumbers"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="select">Game Type
+                                <span class="helpspan"><input type="image" src="/images/help.png" class="help" />
+                                    <span class="helpmsg">How many numbers you selected</span>
+                                </span>
+                                : <div class="gameType"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="select"> Bet value
+                                <span class="helpspan"><span class="helpspan"><input type="image" src="/images/help.png"
+                                            class="help" />
+                                        <span class="helpmsg">How much money you want to bet</span>
+                                    </span>
+                                    :
+                            </div>
+                            <input id="inputBetValue" type="number" class="w3-input w3-border w3-round-large" name="betValue"
+                                style="width: 50%;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="bet" class="w3-btn w3-round w3-green">Bet</button>
+                            <div id="betMsg">You Can't place bet</div>
+                        </td>
+                    </tr>
+                </table>
+            </th>
+            <th>
+                <div><h1 id='kenoCount'> </h1></div>
+                <table class="kenoGame w3-card-4">
+                    <tr class="w3-blue">
+                        <th>
+                            <h1 style="text-align: center;">Keno</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="gameTable w3-table">
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <h1 style="color: #4CAF50; text-align: center;">Pay Table <span class="helpspan"><span class="helpspan"><input type="image"
+                    src="/images/help.png" class="help" />
+                <span class="helpmsg">Multiply the bet value with the correspond Co-effiecent value Game type and
+                    sucesses</span></span></h1>
+    <h2 style="color:#4CAF50; text-align: center;">NUMBERS DRAWN/SUCCESSES</h2>
+    <br>
+    <div class="payingTable"></div>
+    <br>
+</div>
